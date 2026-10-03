@@ -17,6 +17,11 @@ El proyecto despliega en Microsoft Azure:
 - Suscripción de Azure con permisos para crear un grupo de recursos y una red virtual.
 - Provider de recursos `Microsoft.Network` registrado.
 
+La región predeterminada es `chilecentral`. La suscripción académica aplicó una
+directiva de regiones permitidas (`westus`, `belgiumcentral`, `northcentralus`,
+`francecentral` y `chilecentral`), por lo que `mexicocentral`, usada en el
+material de referencia, no estaba autorizada durante la ejecución real.
+
 ## Seguridad del repositorio
 
 Los archivos de estado, el directorio `.terraform`, los planes y los archivos

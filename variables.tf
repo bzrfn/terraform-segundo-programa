@@ -23,7 +23,7 @@ variable "environment" {
 variable "location" {
   description = "Región de Azure donde se desplegarán los recursos."
   type        = string
-  default     = "mexicocentral"
+  default     = "chilecentral"
 }
 
 variable "vnet_address_space" {
@@ -55,4 +55,3 @@ variable "subscription_id" {
     error_message = "subscription_id debe tener formato UUID."
   }
 }
-
