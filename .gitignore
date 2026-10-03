@@ -1,5 +1,6 @@
 # Terraform working directory and state
 .terraform/
+.terraform-tmp/
 *.tfstate
 *.tfstate.*
 *.tfplan
@@ -25,4 +26,3 @@ override.tf.json
 .DS_Store
 Thumbs.db
 .vscode/
-
