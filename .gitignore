@@ -1,0 +1,28 @@
+# Terraform working directory and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+
+# Local variable files may contain environment identifiers
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Terraform diagnostics and overrides
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Azure CLI local session data
+.azure/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
